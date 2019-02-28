@@ -43,8 +43,8 @@ function mQuery($sql){
 */
 function mLog($sql){
 	$filename = PATH.'/log/'.date('Ymd').'.txt';
-	$data = '-----------------------------------'."\n".date('Y/m/d H:i:s')."\n".
-	$sql."\n".'-----------------------------------'."\n\n";
+	$data = '<<<<<<<<<<<<<<<<<<<<<<<<<'."\n".date('Y/m/d H:i:s')."\n".
+	$sql."\n".'>>>>>>>>>>>>>>>>>>>>>>>>>'."\n\n";
 	file_put_contents($filename, $data,FILE_APPEND);
 }
 

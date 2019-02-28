@@ -1,0 +1,567 @@
+-----------------------------------
+2019/02/28 02:55:08
+select * from cat
+
+-----------------------------------
+
+-----------------------------------
+2019/02/28 02:55:21
+select * from cat
+-----------------------------------
+
+-----------------------------------
+2019/02/28 03:04:21
+select * from cat
+-----------------------------------
+
+-----------------------------------
+2019/02/28 03:44:27
+select * from cat
+-----------------------------------
+
+-----------------------------------
+2019/02/28 03:44:29
+select * from cat
+-----------------------------------
+
+-----------------------------------
+2019/02/28 03:44:30
+select * from cat
+-----------------------------------
+
+-----------------------------------
+2019/02/28 03:44:31
+select * from cat
+-----------------------------------
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 03:57:20
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 03:59:13
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 03:59:22
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 03:59:23
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 03:59:33
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 04:04:38
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 04:17:04
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 04:17:37
+select count(*) from cat where cat_id='1'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 04:17:37
+insert into art(title,cat_id,content,pubtime) values ('人生感悟','1','我的人生感悟','1551323857')
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 04:20:31
+select art_id,title,pubtime,catname,comm 
+from art left join cat 
+on art.cat_id=cat.cat_id
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 04:32:17
+select count(*) from art where art_id='1'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 04:32:17
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 04:32:17
+select * from art where art_id=1
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 04:32:21
+select count(*) from art where art_id='1'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 04:32:21
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 04:32:21
+select count(*) from cat where cat_id='1'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 04:32:21
+update art set title='人生感悟',cat_id='1',content='我的人生感悟d' where art_id=1
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 04:32:21
+select art_id,title,pubtime,catname,comm 
+from art left join cat 
+on art.cat_id=cat.cat_id
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 04:52:53
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 04:52:53
+select count(*) from art
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 04:52:53
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+on art.cat_id=cat.cat_id where 1 order 
+by art_id desc limit 0,2
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:17:41
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:17:41
+select art.*,catname from art left join cat on art.cat_id=cat.cat_id where art_id='1'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:17:41
+select * from comment where art_id=1
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:29:00
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:29:00
+select art.*,catname from art left join cat on art.cat_id=cat.cat_id where art_id='1'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:29:00
+select * from comment where art_id=1
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:29:00
+insert into comment(nick,email,content,art_id,pubtime,ip) values ('nick','18850148217@163.com','第一条评论','1','1551338940','0')
+Unknown column 'email' in 'field list'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:36:57
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:36:57
+select art.*,catname from art left join cat on art.cat_id=cat.cat_id where art_id='1'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:36:57
+select * from comment where art_id=1
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:36:57
+insert into comment(nick,email,content,art_id,pubtime,ip) values ('zs','zs@qq.com','zs','1','1551339417','0')
+Unknown column 'email' in 'field list'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:37:03
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:37:03
+select art.*,catname from art left join cat on art.cat_id=cat.cat_id where art_id='1'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:37:03
+select * from comment where art_id=1
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:41:15
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:41:15
+select art.*,catname from art left join cat on art.cat_id=cat.cat_id where art_id='1'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:41:15
+select * from comment where art_id=1
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:41:25
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:41:25
+select art.*,catname from art left join cat on art.cat_id=cat.cat_id where art_id='1'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:41:25
+select * from comment where art_id=1
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:41:25
+insert into comment(nick,email,content,art_id,pubtime,ip) values ('da','18850148217@163.com','das','1','1551339685','0')
+Unknown column 'email' in 'field list'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:41:32
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:41:32
+select art.*,catname from art left join cat on art.cat_id=cat.cat_id where art_id='1'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:41:32
+select * from comment where art_id=1
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:41:38
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:41:38
+select count(*) from art
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:41:38
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+on art.cat_id=cat.cat_id where 1 order 
+by art_id desc limit 0,2
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:57:50
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:57:50
+select count(*) from art where 1
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:57:50
+select suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+on art.cat_id=cat.cat_id where 1 order 
+by art_id desc limit 0,2
+Unknown column 'suo' in 'field list'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:58:24
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:58:24
+select count(*) from art
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 08:58:24
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+on art.cat_id=cat.cat_id where 1 order 
+by art_id desc limit 0,2
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:13:24
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:13:46
+select count(*) from cat where cat_id='2'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:13:46
+insert into art(title,cat_id,content,pubtime,pic,suo) values ('you图','2','有图的blog','1551341626','/upload/2019/0228/DuyXjf.jpg','/upload/2019/0228/579sY6.jpg')
+Unknown column 'pic' in 'field list'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:17:38
+select count(*) from cat where cat_id='2'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:17:38
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:22:05
+select count(*) from cat where cat_id='2'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:22:06
+insert into art(title,cat_id,content,pubtime,pic,suo) values ('you图','2','有图的blog','1551342125','/upload/2019/0228/KScWsR.jpg','/upload/2019/0228/7TFzDC.jpg')
+Unknown column 'suo' in 'field list'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:22:08
+select count(*) from cat where cat_id='2'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:22:08
+insert into art(title,cat_id,content,pubtime,pic,suo) values ('you图','2','有图的blog','1551342128','/upload/2019/0228/hnmFCY.jpg','/upload/2019/0228/mXTGSv.jpg')
+Unknown column 'suo' in 'field list'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:22:09
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:22:10
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:22:26
+select count(*) from cat where cat_id='3'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:22:26
+insert into art(title,cat_id,content,pubtime,pic,suo) values ('youtu','3','有图的啊','1551342146','/upload/2019/0228/rpwC5j.jpg','/upload/2019/0228/Q5EcTF.jpg')
+Unknown column 'suo' in 'field list'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:23:40
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:23:42
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:23:51
+select count(*) from cat where cat_id='3'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:23:51
+insert into art(title,cat_id,content,pubtime,pic) values ('有图','3','有图','1551342231','/upload/2019/0228/MgzvCj.jpg')
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:23:58
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:23:58
+select count(*) from art
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 09:23:58
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+on art.cat_id=cat.cat_id where 1 order 
+by art_id desc limit 0,2
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:00:47
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:01:05
+select count(*) from cat where cat_id='3'
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:01:05
+insert into art(title,cat_id,content,pubtime,pic,suo) values ('you缩略图','3','看看缩略图','1551348065','/upload/2019/0228/8UKDjx.jpg','/upload/2019/0228/MqfBZm.jpg')
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:01:07
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:01:11
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:01:11
+select count(*) from art
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:01:11
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+on art.cat_id=cat.cat_id where 1 order 
+by art_id desc limit 0,2
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:03:00
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:03:00
+select count(*) from art
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:03:00
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+on art.cat_id=cat.cat_id where 1 order 
+by art_id desc limit 0,2
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:03:02
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:03:02
+select count(*) from art
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:03:02
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+on art.cat_id=cat.cat_id where 1 order 
+by art_id desc limit 0,2
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:03:45
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:03:45
+select count(*) from art
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:03:45
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+on art.cat_id=cat.cat_id where 1 order 
+by art_id desc limit 0,2
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:08:17
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:08:17
+select count(*) from art
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:08:17
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+on art.cat_id=cat.cat_id where 1 order 
+by art_id desc limit 0,2
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:09:16
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:09:16
+select count(*) from art where 1
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:09:16
+select suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+on art.cat_id=cat.cat_id where 1 order 
+by art_id desc limit 0,2
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:10:36
+select * from cat
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:10:36
+select count(*) from art
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+2019/02/28 11:10:36
+select suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+on art.cat_id=cat.cat_id where 1 order 
+by art_id desc limit 0,2
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
